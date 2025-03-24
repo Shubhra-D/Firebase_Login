@@ -40,7 +40,7 @@ const Profile = () => {
         <Flex alignItems={"start"} marginTop={"10"} gap={6}>
           <Avatar.Root size={"2xl"}>
             <Avatar.Fallback name="UserName" />
-            <Avatar.Image src={user?.photoURL || "defaultpic.jpeg"} />
+            <Avatar.Image src={user?.photoURL || "Firebase_Login/defaultpic.jpeg"} />
             <Float placement={"bottom-end"} offsetX={"1"} offsetY={"1"}>
               <Circle
                 bg={"purple.300"}
